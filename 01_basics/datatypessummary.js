@@ -30,3 +30,27 @@ console.log(typeof   userEmail );
 //Reference (non primitive)
 
 // array, Objects, Functions
+//**************************************/
+//Stack (primitive), heap (Non-primitive)
+ 
+let myYoutubename="dytechdotcom"
+
+let anothername = myYoutubename
+anothername= "fintech"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne= {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo= userOne
+
+userTwo.email="diya@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
