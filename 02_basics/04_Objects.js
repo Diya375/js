@@ -24,7 +24,7 @@ const obj2 = {3: "a", 4: "b"}
 
 // const obj3={obj1, obj2}
 const obj3 =  {...obj1, ...obj2}
-console.log(obj3)
+// console.log(obj3)
 
 
 // const i1={1:"34", 2:"44"}
@@ -53,10 +53,42 @@ const users=[
     },
 ]
  users[1].email
- console.log( users);
+//  console.log( users);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));//keys and values both
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));//keys and values both
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course={
+    courseName: "JavaScript",
+    price: 999,
+    courseInstructor: "Diya"
+}
+// course.courseInstructor  
+
+ const {courseInstructor: instructor}=course
+// const{courseInstructor}=course
+// console.log(courseInstructor);
+// console.log(course.courseName);
+console.log(instructor);
+
+// const navbar = (company) => {  de-structuring in function parameter
+//     return "I am a navbar"
+// }
+
+// console.log(navbar(company="diya"));
+
+// {
+//     "name": "Diya",
+//    " coursename": "JavaScript",
+//     "courseInstructor": "Diya"
+// }
+
+[
+    {},
+    {},
+    {},
+
+]
 
