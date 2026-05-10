@@ -4,10 +4,10 @@
 // console.log("A")
  
 function sayMyName(){
-    console.log("D");
-    console.log("I");
-    console.log("Y");
-    console.log("A");
+    // console.log("D");
+    // console.log("I");
+    // console.log("Y");
+    // console.log("A");
 }
 // sayMyName()  //() is used to call the function
 
@@ -45,6 +45,35 @@ function loginuserMessage(username="sam"){
 }
 
 // console.log(loginuserMessage("Diya"));
-console.log(loginuserMessage());//sam just logged in because we have provided a default value for the parameter.donot provide null as we already have a default value for the parameter  
+//console.log(loginuserMessage());//sam just logged in because we have provided a default value for the parameter.donot provide null as we already have a default value for the parameter  
 
- 
+function calculatrCartPrice(val1, val2,...num1){//gives all the arguments in an array but only num1 gives 200
+    return num1
+}
+// console.log(calculatrCartPrice(200, 300, 400, 500, 3000))
+
+const user= {
+    username: "Diya",
+    course: "JavaScript",
+    isLoggedIn: true,
+}
+function handleObejct(anyobj){
+    // console.log(`Username is ${anyobj.username} and course is ${anyobj.course}`);
+
+}
+// handleObejct(user)
+handleObejct({
+    username: "sudip",
+    course: "Python",
+})
+
+const myNewArray= [200, 400, 100, 600]
+
+ function returnSecondValue(getArray){
+    return getArray[0]
+ }
+// console.log(returnSecondValue(getArray)){
+//     return getArray[1]
+// }
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue( [100, 300, 500]));
